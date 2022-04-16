@@ -1,0 +1,72 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.header-name {
+    width: 400px;
+    height: 174px;
+    margin-left: 165px;
+    margin-top: 81px;
+    font-family: 'Gilroy-Bold';
+    font-size: 48px;
+    line-height: 58px;
+    display: flex;
+    text-align: start;
+    color: #122B51;
+}
+
+.header-description {
+    width: 440px;
+    height: 56px;
+    margin-left: 165px;
+    margin-top: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: start;
+    color: #2E4565;
+}
+
+.button {
+    display: flex;
+}
+
+.login-btn {
+    position: static;
+    width: 60px;
+    height: 40px;
+    border: 0ch;
+    margin-left: 197px;
+    margin-top: 14px;
+    padding: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #122B51;
+}
+
+.free-trial-btn {
+    margin-left: 10px;
+    width: 181px;
+    height: 40px;
+    margin-top: 14px;
+    background-color: #3A8BFB;
+    color: white;
+    border: 0ch;
+    border-radius: 5px;
+}
+
+.header-image img {
+    margin-top: 36px;
+    margin-right: 100px;
+    width: 622px;
+    height: 475px;
+    border-radius: 5px;
+}

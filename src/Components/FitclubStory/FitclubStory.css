@@ -1,0 +1,240 @@
+.fitclub_story {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.story_behind {
+    width: 414px;
+    height: 414px;
+    background-image: url('../../Images/storyBehind_bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-left: 165px;
+    margin-top: 250px;
+}
+
+.story_behind img {
+    width: 287px;
+    height: 517px;
+    margin-top: -150px;
+
+}
+
+.fitclub-title {
+    width: 298px;
+    height: 92px;
+    margin-left: 156px;
+    margin-top: 305px;
+    margin-bottom: 24px;
+    font-family: 'Gilroy-Bold';
+    font-size: 36px;
+    line-height: 46px;
+    display: flex;
+    text-align: start;
+    color: #122B51;
+}
+
+.fitclub-description {
+    width: 540px;
+    height: 192px;
+    margin-left: 156px;
+    margin-right: 70px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    text-align: start;
+    color: #6B7D92;
+}
+
+.fitclub_story a {
+    text-decoration: none;
+    width: 118px;
+    height: 26px;
+    margin-left: 156px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #2E4565;
+}
+
+.real-time-workout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.workout-title {
+    width: 351px;
+    height: 92px;
+    margin-left: 165px;
+    margin-top: 237px;
+    font-family: 'Gilroy-Bold';
+    font-size: 36px;
+    line-height: 46px;
+    display: flex;
+    text-align: start;
+    color: #122B51;
+}
+
+.workout-details {
+    width: 540px;
+    height: 120px;
+    margin-left: 165px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    text-align: start;
+    color: #6B7D92;
+}
+
+.time-workout img {
+    width: 500px;
+    height: 325px;
+    border-radius: 5px;
+    margin-left: 115px;
+}
+
+.workout-dumbbell img {
+    width: 445px;
+    height: 500px;
+    padding-right: 165px;
+    margin-top: 239px;
+    border-radius: 5px;
+}
+
+
+.free-trial {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.memberships {
+    width: 351px;
+    height: 92px;
+    margin-left: 165px;
+    margin-top: 323px;
+    font-family: 'Gilroy-Bold';
+    font-size: 36px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    color: #122B51;
+}
+
+.trial-price {
+    width: 58px;
+    height: 42px;
+    margin-left: 80px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    color: #3A8BFB;
+}
+
+
+.trial-description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6B7D92;
+}
+
+.trial-button {
+    width: 185px;
+    height: 26px;
+    margin-left: 169px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #2E4565;
+    border: 0;
+}
+
+.trial {
+    margin-top: 175px;
+    width: 800px;
+
+    border-radius: 5px;
+}
+
+.trial img {
+    width: 250px;
+    height: 519px;
+}
+
+.subscribe {
+    margin-bottom: 105px;
+}
+
+.subscribe-heading {
+    width: 365px;
+    height: 116px;
+    margin-left: 537px;
+    margin-top: 120px;
+    font-family: 'Gilroy-Bold';
+    font-size: 48px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #122B51;
+}
+
+.subscribe-detail {
+    width: 540px;
+    height: 26px;
+    margin-left: 450px;
+    margin-top: -22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2E4565;
+}
+
+.subscribe input {
+    width: 499px;
+    height: 50px;
+    margin-left: 100px;
+    background: rgba(150, 174, 199, 0.05);
+    border: 0.5px solid rgba(18, 43, 81, 0.2);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.subscribe button {
+    width: 145px;
+    margin-left: 8px;
+    height: 50px;
+    background: #3A8BFB;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: 0;
+}

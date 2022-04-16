@@ -1,0 +1,91 @@
+.fitness-heading {
+    width: 573px;
+    height: 116px;
+    margin-left: 434px;
+    margin-top: 160px;
+    font-family: 'Gilroy-Bold';
+    font-size: 48px;
+    line-height: 58px;
+    align-items: center;
+    text-align: center;
+    color: #122B51;
+}
+
+.fitness-plan {
+    width: 540px;
+    margin-left: 500px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2E4565;
+    margin-bottom: -70px;
+}
+
+.fitness-goal {
+    display: flex;
+    margin-left: 232px;
+}
+
+.goal-one img {
+    background-image: url('../../Images/fitnessGoal1_bg.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 312px;
+    border-radius: 20px;
+    margin-top: 90px;
+}
+
+.muscles-button,
+.leaner-button,
+.strength-button {
+    width: 180px;
+    height: 56px;
+    margin-top: -40px;
+}
+
+.muscles-button button,
+.leaner-button button,
+.strength-button button {
+    width: 180px;
+    height: 56px;
+    margin-left: 58px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #2E4565;
+    border: 0;
+    border-radius: 10px;
+}
+
+
+.goal-two img {
+    height: 603px;
+    width: 370px;
+    background-image: url('../../Images/Rectangle\ 37.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.leaner-button button,
+.strength-button button {
+    background-color: #3A8BFB;
+    color: white;
+}
+
+.goal-three img {
+    margin-top: 90px;
+    width: 312px;
+    height: 510px;
+    background: url('../../Images//fitnessGoal3_bg.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
